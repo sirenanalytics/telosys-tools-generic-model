@@ -16,6 +16,7 @@
 package org.telosys.tools.generic.model;
 
 import java.math.BigDecimal;
+import java.util.HashMap;
 import java.util.List;
 
 import org.telosys.tools.generic.model.enums.BooleanValue;
@@ -510,4 +511,6 @@ public interface Attribute {
 	 */
 	public boolean isUnique() ; // v 3.4.0
 
+	public SirenParams getSirenParams();
+	public Object getSirenParam(String annotation, String key);
 }
