@@ -179,4 +179,7 @@ public interface Link {
 	 * @since v 4.1.0
 	 */
 	public boolean isOrphanRemoval() ; // v 4.1.0
+	
+	public SirenParams getSirenParams();
+	public Object getSirenParam(String annotation, String key);	
 }

@@ -16,7 +16,6 @@
 package org.telosys.tools.generic.model;
 
 import java.math.BigDecimal;
-import java.util.HashMap;
 import java.util.List;
 
 import org.telosys.tools.generic.model.enums.BooleanValue;

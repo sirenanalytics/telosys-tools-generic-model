@@ -6,6 +6,7 @@ public class SirenParams {
 	
 	public static final String NoBlanks = "NoBlanks";
 	public static final String NoNulls = "NoNulls";
+	public static final String KeyNotNull = "KeyNotNull";
 	public static final String ArabicOrEnglishOnlyConstraint = "ArabicOrEnglishOnlyConstraint";
 	public static final String NumbersGreaterThanZeroOnlyConstraint = "NumbersGreaterThanZeroOnlyConstraint";
 	public static final String LebaneseMobileConstraint = "LebaneseMobileConstraint";
