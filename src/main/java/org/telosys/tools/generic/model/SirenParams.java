@@ -6,11 +6,15 @@ public class SirenParams {
 	
 	public static final String NoBlanks = "NoBlanks";
 	public static final String NoNulls = "NoNulls";
+	public static final String FutureOrPresent = "FutureOrPresent";
 	public static final String KeyNotNull = "KeyNotNull";
+	public static final String OrderBy = "OrderBy";
 	public static final String ArabicOrEnglishOnlyConstraint = "ArabicOrEnglishOnlyConstraint";
 	public static final String NumbersGreaterThanZeroOnlyConstraint = "NumbersGreaterThanZeroOnlyConstraint";
 	public static final String LebaneseMobileConstraint = "LebaneseMobileConstraint";
+	public static final String JsonIgnore = "JsonIgnore";
 	public static final String EmailConstraint = "EmailConstraint";
+	public static final String EmailNotMandatoryConstraint = "EmailNotMandatoryConstraint";
 	public static final String MinMaxSize = "MinMaxSize";
 	public static final String MinSize = "MinSize";
 	public static final String MaxSize = "MaxSize";
@@ -19,6 +23,7 @@ public class SirenParams {
 	public static final String Message = "Message";
 	public static final String Min = "Min";
 	public static final String Max = "Max";
+	public static final String Expression = "Expression";
 	
 	private HashMap<String, Object> sirenParams;
 	
