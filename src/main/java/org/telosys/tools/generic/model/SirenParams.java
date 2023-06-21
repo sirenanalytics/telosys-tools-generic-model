@@ -18,6 +18,8 @@ public class SirenParams {
 	public static final String MinMaxSize = "MinMaxSize";
 	public static final String MinSize = "MinSize";
 	public static final String MaxSize = "MaxSize";
+	public static final String JsonManagedReference = "JsonManagedReference";
+	public static final String JsonBackReference = "JsonBackReference";
 	
 	public static final String Exists = "Exists";
 	public static final String Message = "Message";
