@@ -17,6 +17,8 @@ package org.telosys.tools.generic.model;
 
 import java.util.List;
 
+import org.telosys.tools.commons.plugins.IPluginAnnotationData;
+
 /**
  * This interface describe an abstract 'entity' that must be implemented 
  * by each entity in a concrete model 
@@ -150,4 +152,6 @@ public interface Entity
 	public String getDatabaseTablespace(); // v 3.4.0
 
 	public boolean isJoinEntity() ; // v 4.1.0
+	
+	public IPluginAnnotationData getPluginAnnotationData();//SICODE
 }

@@ -18,6 +18,7 @@ package org.telosys.tools.generic.model;
 import java.math.BigDecimal;
 import java.util.List;
 
+import org.telosys.tools.commons.plugins.IPluginAnnotationData;
 import org.telosys.tools.generic.model.enums.BooleanValue;
 import org.telosys.tools.generic.model.enums.DateType;
 import org.telosys.tools.generic.model.enums.GeneratedValueStrategy;
@@ -510,6 +511,5 @@ public interface Attribute {
 	 */
 	public boolean isUnique() ; // v 3.4.0
 
-	public SirenParams getSirenParams();
-	public Object getSirenParam(String annotation, String key);
+	public IPluginAnnotationData getPluginAnnotationData();//SICODE
 }

@@ -17,6 +17,7 @@ package org.telosys.tools.generic.model;
 
 import java.util.List;
 
+import org.telosys.tools.commons.plugins.IPluginAnnotationData;
 import org.telosys.tools.generic.model.enums.BooleanValue;
 import org.telosys.tools.generic.model.enums.Cardinality;
 import org.telosys.tools.generic.model.enums.FetchType;
@@ -180,6 +181,5 @@ public interface Link {
 	 */
 	public boolean isOrphanRemoval() ; // v 4.1.0
 	
-	public SirenParams getSirenParams();
-	public Object getSirenParam(String annotation, String key);	
+	public IPluginAnnotationData getPluginAnnotationData();//SICODE
 }
